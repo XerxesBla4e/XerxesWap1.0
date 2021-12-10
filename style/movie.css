@@ -1,0 +1,227 @@
+@import url(display.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.responsiveness{
+    width: 100%;
+}
+.search{
+background-color: #4075A0;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 13%;
+}
+
+.search input[type="search"]{
+width: 50%;
+padding: 1%;
+border: none;
+border-radius: 5%;
+font-size: 1rem;
+flex: 2;
+}
+
+.btn{
+    background-color: aqua;
+    cursor: pointer;
+    width: 7%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.mov-category{
+    background-color: #4075A0;
+}
+
+.responsive{
+    width: 50%;
+    padding: 1%;
+   margin: 0 auto;
+   border-radius: 8%;
+   font-weight: bold;
+   background-color: #fff;
+}
+
+.responsive2{
+    width: 90%;
+    padding: 1%;
+   border-radius: 3%;
+   font-weight: bold;
+   margin: 0 auto;
+   background-color: #fff;
+
+}
+button{
+    cursor: pointer;
+}
+
+.nav{
+    line-height: 90%;
+    background: grey;
+}
+.footer{
+    background: grey;
+    padding: 2%;
+}
+.menu ul{
+text-align: right;
+list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+   padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+.menu ul li a:hover{
+    color: maroon;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+a:active{
+    color: lightskyblue;
+}
+
+.lnk{
+    width: 1%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+.lnk-success{
+    width: 6%;
+    background-color: lightcoral;
+    color: white;
+}
+.lnk-primary{
+    background-color: darkcyan;
+    color: white;
+}
+.lnk-primary:hover{
+    color: white;
+    background-color: blue;
+}
+.lnk-success:hover{
+color: white;
+background-color: red;
+}
+
+.text2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.preview{
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 30%;
+        float: none;
+        padding: 2%;
+    }
+    .btn{
+        width: 80%;
+    }
+    .menu ul{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 0;
+    }
+    .responsive{
+        width: 90%;
+        padding: 2%;
+    }
+    .mov-category{
+        margin-top: 0;
+        padding-top: 1%;
+        margin-bottom: 0;
+        padding: 8%;
+    }
+
+    .footer{
+        padding: 7%;
+    }
+
+    .search input[type="search"]{
+        width: 110%;
+        padding: 4%;
+        }
+    .search{
+        padding: 20%;
+     }
+
+     .movie_box{
+        width: 60%;
+        padding: 2%;
+      
+     }
+     .btn1{
+        width: 70%;
+        padding: 1%;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-left: 43%;
+     }
+
+     .cover{
+         width: 70%;
+         margin-left: 40%;
+     }
+
+     .description{ 
+        margin-left: 10%;
+     }  
+    .text{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .responsive2{
+        width: 100%;
+        padding: 2%;
+        font-size: 1.2rem;
+        margin-bottom: 1%;
+        font-style: italic;
+    }
+    .lnk{
+        border-radius: 1px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 8%;
+        margin-left: 0;
+    }
+    .lnk-success{
+        width: 18%;
+    }
+    .lnk-primary{
+        width: 6%;
+    }
+}
